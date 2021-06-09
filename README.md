@@ -22,7 +22,8 @@ This script simple checks given apache server's status page and reports if given
 
 <!-- GETTING STARTED -->
 ## Configuration structure
-`[SERVERS]`
+```
+[SERVERS]
  contains a list of servers that you want to watch
 local=http://localhost/server-status?auto
 
@@ -39,7 +40,7 @@ NOTIFICATION_MESSAGE=Attention required! Server {server} {limits}
 ICON=warning.ico
  Sleep interval till the next check
 INTERVAL_CHECK_MINUTES=5
-`
+```
 
 ### Prerequisites
 

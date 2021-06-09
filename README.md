@@ -16,8 +16,8 @@ This script simple checks given apache server's status page and reports if given
 
 ### Requirements
 
-[pip install plyer]
-[pip install configparser]
+`pip install plyer`
+`pip install configparser`
 
 
 <!-- GETTING STARTED -->
@@ -42,6 +42,9 @@ ICON=warning.ico
 # Sleep interval till the next check
 INTERVAL_CHECK_MINUTES=5
 ```
+
+### How to run
+`python apache_status_watcher.py`
 
 ### Prerequisites
 

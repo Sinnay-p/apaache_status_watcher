@@ -22,8 +22,7 @@ This script simple checks given apache server's status page and reports if given
 
 <!-- GETTING STARTED -->
 ## Configuration structure
-`
-[SERVERS]
+`[SERVERS]`
  contains a list of servers that you want to watch
 local=http://localhost/server-status?auto
 

@@ -1,14 +1,3 @@
-
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -33,13 +22,13 @@ This script simple checks given apache server's status page and reports if given
 
 <!-- GETTING STARTED -->
 ## Configuration structure
-
+`
 [SERVERS]
 # contains a list of servers that you want to watch
 local=http://localhost/server-status?auto
 
 [THRESHOLDS]
-# Parameters to watch for and their corresponding thresholds
+#Parameters to watch for and their corresponding thresholds
 BusyWorkers=50
 Load1=2
 Load5=3.5
@@ -51,7 +40,7 @@ NOTIFICATION_MESSAGE=Attention required! Server {server} {limits}
 ICON=warning.ico
 # Sleep interval till the next check
 INTERVAL_CHECK_MINUTES=5
-
+`
 
 ### Prerequisites
 

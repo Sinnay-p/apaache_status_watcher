@@ -24,11 +24,11 @@ This script simple checks given apache server's status page and reports if given
 ## Configuration structure
 `
 [SERVERS]
-# contains a list of servers that you want to watch
+ contains a list of servers that you want to watch
 local=http://localhost/server-status?auto
 
+Parameters to watch for and their corresponding thresholds
 [THRESHOLDS]
-#Parameters to watch for and their corresponding thresholds
 BusyWorkers=50
 Load1=2
 Load5=3.5
@@ -38,7 +38,7 @@ Load15=4
 APP_NAME=APACHE STATUS WATCHER
 NOTIFICATION_MESSAGE=Attention required! Server {server} {limits}
 ICON=warning.ico
-# Sleep interval till the next check
+ Sleep interval till the next check
 INTERVAL_CHECK_MINUTES=5
 `
 
